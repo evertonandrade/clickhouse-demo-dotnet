@@ -1,0 +1,17 @@
+### Get users
+GET /users
+Accept: application/json
+Host: localhost:5000
+
+
+### Create User
+POST /users
+Content-Type: application/json
+Host: localhost:5000
+
+{
+	"id": 2,
+	"birthDate": "2000-01-01",
+	"name": "Andrade"
+}
+
